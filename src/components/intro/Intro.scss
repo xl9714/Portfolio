@@ -5,19 +5,38 @@
     background-color: #bcd0e0;
 }
 
+.imgContainer {
+    width: 600px;
+    height: 500px;
+    border-radius: 50%;
+    display:flow-root;
+    align-items: flex;
+    float: left;
+    margin-top: 80px;
+    margin-left: 100px;
+
+    img {
+        height: 90%;
+    }
+}
+
 .i-intro-wrapper {
-    padding:50px;
+    padding-top: 150px;
+    padding-left:150px;
     text-align: center;
 }
 
 .i-greeting {
-    font-size: 150%;
+    font-size: 250%;
+    font-weight: 400;
 }
 
 .i-name {
-    font-size: 300%;
+    font-size: 350%;
+    font-weight: 700;
 }
 
 .i-title-item {
-    font-size: larger;
+    font-size: 200%;
+    font-weight: 400;
 }
